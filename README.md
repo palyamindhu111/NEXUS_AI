@@ -87,7 +87,7 @@ Create a `.env` file in the project folder:
 GROQ_API_KEY=your_groq_api_key
 ```
 
-**Note:** Never upload your API key to GitHub.
+**Important:** Never upload your API key to GitHub.
 
 ### 7. Run the application
 
@@ -123,3 +123,8 @@ The objective of NEXUS AI is to demonstrate how AI agents can use external tools
 - Improved conversation memory
 - Export research reports
 - Enhanced user interface
+
+## 🔗 GitHub Repository
+
+https://github.com/palyamindhu111/NEXUS_AI
+
