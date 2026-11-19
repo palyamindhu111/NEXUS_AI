@@ -1,0 +1,93 @@
+
+/* Main page */
+
+.stApp {
+    background-color: #EAF4FF !important;
+    color: #20243A !important;
+}
+
+/* Sidebar */
+
+[data-testid="stSidebar"] {
+    background-color: #FFFFFF !important;
+}
+
+/* Choose your mode dropdown */
+
+[data-testid="stSidebar"] [data-testid="stSelectbox"] div[data-baseweb="select"] {
+    background-color: #D6EAFE !important;
+    border: 1px solid #80B9F0 !important;
+}
+
+[data-testid="stSidebar"] [data-testid="stSelectbox"] div[data-baseweb="select"] div,
+[data-testid="stSidebar"] [data-testid="stSelectbox"] div[data-baseweb="select"] span {
+    color: #000000 !important;
+}
+
+/* Dropdown options menu */
+
+[data-baseweb="popover"],
+[data-baseweb="menu"],
+[data-baseweb="menu"] ul {
+    background-color: #FFFFFF !important;
+}
+
+[data-baseweb="menu"] li,
+[data-baseweb="menu"] li div,
+[data-baseweb="menu"] li span {
+    color: #000000 !important;
+}
+
+/* Research input box */
+
+.stTextArea textarea {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+    border: 1px solid #80B9F0 !important;
+}
+
+/* Research answer text */
+
+[data-testid="stMarkdownContainer"] {
+    color: #20243A !important;
+}
+
+[data-testid="stMarkdownContainer"] p,
+[data-testid="stMarkdownContainer"] li,
+[data-testid="stMarkdownContainer"] h1,
+[data-testid="stMarkdownContainer"] h2,
+[data-testid="stMarkdownContainer"] h3,
+[data-testid="stMarkdownContainer"] strong {
+    color: #20243A !important;
+}
+
+/* Research answer background */
+
+.answer-card {
+    background-color: #FFFFFF !important;
+    color: #20243A !important;
+    padding: 25px !important;
+    border-radius: 15px !important;
+}
+
+/* Buttons */
+
+.stButton button {
+    background-color: #6554D9 !important;
+    color: #FFFFFF !important;
+}
+
+/* Quick Research box */
+
+.quick-research {
+    background-color: #D6EAFE !important;
+    color: #000000 !important;
+    padding: 20px !important;
+    border-radius: 15px !important;
+    border: 1px solid #80B9F0 !important;
+}
+
+.quick-research h3,
+.quick-research p {
+    color: #000000 !important;
+}
