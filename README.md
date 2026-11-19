@@ -5,6 +5,10 @@ NEXUS AI is an AI-powered research assistant built using Python, Streamlit, Lang
 
 It helps users research topics, generate answers, search the web, and view source links through a simple interface.
 
+## 📸 Application Screenshot
+
+![NEXUS AI Application](assets/nexus-ai-screenshot.png)
+
 ## ✨ Features
 
 - AI-powered research answers
@@ -34,11 +38,11 @@ NEXUS_AI/
 ├── agent.py
 ├── tools.py
 ├── requirements.txt
-├── .env
 ├── .gitignore
 │
 └── assets/
-    └── style.css
+    ├── style.css
+    └── nexus-ai-screenshot.png
 ```
 
 ## ⚙️ Installation
@@ -46,7 +50,7 @@ NEXUS_AI/
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/palyamindhu111/NEXUS_AI.git
 ```
 
 ### 2. Open the project folder
@@ -77,13 +81,13 @@ pip install -r requirements.txt
 
 ### 6. Configure your API key
 
-Create a `.env` file:
+Create a `.env` file in the project folder:
 
 ```text
 GROQ_API_KEY=your_groq_api_key
 ```
 
-Never upload your API key to GitHub.
+**Note:** Never upload your API key to GitHub.
 
 ### 7. Run the application
 
@@ -95,7 +99,7 @@ Open the local URL displayed in your terminal.
 
 ## 🧪 Testing
 
-The following features have been tested:
+The following features have been manually tested:
 
 - Research question answering
 - Web search
@@ -110,7 +114,7 @@ The objective of NEXUS AI is to demonstrate how AI agents can use external tools
 
 ## 👩‍💻 Author
 
-Indhu
+**Indhu**
 
 ## 📌 Future Improvements
 
